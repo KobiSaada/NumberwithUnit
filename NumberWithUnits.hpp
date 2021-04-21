@@ -36,6 +36,8 @@ namespace ariel {
         friend  NumberWithUnits operator++(NumberWithUnits& x, int);
         friend NumberWithUnits operator--(NumberWithUnits& x);
         friend NumberWithUnits operator--(NumberWithUnits& n, int);
+        
+        // declare the multipliction operators *,*=//
         friend const NumberWithUnits operator*(NumberWithUnits& x, double n);
         friend const NumberWithUnits operator*(double n, NumberWithUnits& x);
         friend  NumberWithUnits operator*=(NumberWithUnits& x, double n);
